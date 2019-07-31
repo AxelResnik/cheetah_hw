@@ -7,7 +7,7 @@ Done in Ruby on Rails
 - Once the data is parsed, the same is based on the producers, where each one has assigned its own products.
 - The URL for the API is based in the local host as the same is not deployed.
 - the same one is: *http://localhost:3000/api/v1/producers?page=1*
-- The API has a pagination system done by [Pagy gem]( https://ddnexus.github.io/pagy/how-to.html ), to navigate the same, we must change the page number in the URL.
+- The API has a pagination system done by [Pagy gem]( https://ddnexus.github.io/pagy/how-to.html ), to navigate the same, we must change the page number in the URL (1...15).
 
 ## Example of the API 
 - [
