@@ -30,6 +30,7 @@ CSV.foreach(filepath, csv_options) do |row|
 		producer = undefined_producer
 	end
 
+puts 'Extracting products'
 
 	products << Product.new(name: row['product_name'],
 							photo: row['photo_url'],
@@ -38,8 +39,8 @@ CSV.foreach(filepath, csv_options) do |row|
 							sku: row['sku (unique id)'],
 							producer: producer)
 end
-puts "Finished parsing"
 
+puts "Finished parsing"
 puts "Generating producers & products"
 # Bulk insert
 Producer.import(producers)
