@@ -10,7 +10,7 @@ Done in Ruby on Rails
 - The API has a pagination system done by [Pagy gem]( https://ddnexus.github.io/pagy/how-to.html ), to navigate the same, we must change the page number in the URL.
 
 ## Example of the API 
--[
+- [
 -  {
 -    "producer": "Bernhard, Emmerich and Willms",
 -    "products": [
