@@ -10,25 +10,25 @@ Done in Ruby on Rails
 - The API has a pagination system done by [Pagy gem]( https://ddnexus.github.io/pagy/how-to.html ), to navigate the same, we must change the page number in the URL.
 
 ## Example of the API 
-[
-  {
-    "producer": "Bernhard, Emmerich and Willms",
-    "products": [
-      {
-        "id": 41,
-        "name": "Carroway Seed",
-        "photo": "http://dummyimage.com/247x199.bmp/ff4444/ffffff",
-        "barcode": "20880",
-        "price": "15882",
-        "sku": "58b18288-ff56-4ba7-a656-28b2815ff65a",
-        "producer_id": 36,
-        "created_at": "2019-07-31T10:21:20.872Z",
-        "updated_at": "2019-07-31T10:21:20.872Z"
-      }
-    ]
-  },
+-[
+-  {
+-    "producer": "Bernhard, Emmerich and Willms",
+-    "products": [
+-      {
+-        "id": 41,
+-        "name": "Carroway Seed",
+-        "photo": "http://dummyimage.com/247x199.bmp/ff4444/ffffff",
+-        "barcode": "20880",
+-        "price": "15882",
+-        "sku": "58b18288-ff56-4ba7-a656-28b2815ff65a",
+-        "producer_id": 36,
+-        "created_at": "2019-07-31T10:21:20.872Z",
+-        "updated_at": "2019-07-31T10:21:20.872Z"
+-      }
+-    ]
+-  },
   
   ## Build with
-  [jbuilder]( https://github.com/rails/jbuilder )
-  [Pagy gem]( https://ddnexus.github.io/pagy/how-to.html )
-  [Activerecord-Import]( https://github.com/zdennis/activerecord-import ) 
+  - [jbuilder]( https://github.com/rails/jbuilder )
+  - [Pagy gem]( https://ddnexus.github.io/pagy/how-to.html )
+  - [Activerecord-Import]( https://github.com/zdennis/activerecord-import ) 
